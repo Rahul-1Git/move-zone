@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import _ from "lodash";
-import "./movielist.css";
+import "./MovieList.css";
 import MovieCard from "../moviecard/MovieCard";
 import FilterGroup from "../filterGroup/FilterGroup";
 import { values } from "lodash";
