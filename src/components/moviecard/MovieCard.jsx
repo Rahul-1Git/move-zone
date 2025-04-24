@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./moviecard.css";
+import "./MovieCard.css";
 import { FaStar } from "react-icons/fa6";
 const MovieCard = ({ movie }) => {
   return (
