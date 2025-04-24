@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  border: 1px solid black;
+}
+.navbar > h1 {
+  color: red;
+  font-size: 40px;
+}
+.navbar_link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.navbar_link > a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+.movie_filter.active {
+  border-bottom: 1px solid whitesmoke;
+  font-weight: 500;
+}

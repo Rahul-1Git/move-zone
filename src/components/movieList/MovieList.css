@@ -1,0 +1,32 @@
+.movie_list_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.movie_list_fs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.movie_filter {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  cursor: pointer;
+}
+.movie_sorting {
+  outline: none;
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 5px;
+}
+.movie_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie_filter.active {
+  border-bottom: 2px solid red; /* Active tab line */
+  font-weight: bold;
+}
