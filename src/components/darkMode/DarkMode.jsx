@@ -1,5 +1,5 @@
 import React from "react";
-import "./darkmode.css";
+import "./DarkMode.css";
 import { MdLightMode } from "react-icons/md";
 import { CiDark } from "react-icons/ci";
 
