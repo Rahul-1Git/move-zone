@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import MovieList from "./components/movieList/MovieList";
 const App = () => {
